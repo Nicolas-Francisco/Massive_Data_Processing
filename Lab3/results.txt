@@ -1,0 +1,29 @@
+* The count for any word beginning with `s' in Spanish Wikipedia (from CountWords):
+  "séptimo"	- 	2603
+
+* The counts of the top ten words by frequency in Spanish Wikipedia (from SortWordCounts).
+  de		- 	7511852
+  la		-	3442339
+  en		-	3099336
+  el		-	2744844
+  y		-	2257080
+  es		-	2161199
+  del		-	1247356
+  a		-	1201704
+  que		-	1124538
+  los 		-	1039541
+
+* The counts of the top ten co-stars by frequency in IMDb.
+  Moran, Lee & Lyons, Eddie		-	321
+  Nazir, Prem & Bhasi, Adoor		-	299
+  Howard, Moe & Fine, Larry		-	243
+  Miller, Harld & Flowers, Bess 	-	227
+  Questel, Mae & Mercer, Jack		-	219
+  Brahmanandam & Ali			-	196
+  Richardson, Jack & Kerrigan, J. W.	-	186
+  Henry, Gale & Franey, Billy		-	180
+  Lester, Louise & Richardson, Jack	-	179
+  Narayana, M.S & Brahmanandam	 	-	178
+
+* The count of a pair of co-stars you're a huge fan of in IMDb
+  DiCaprio, Leonardo & Pitt, Brad	-	3
