@@ -28,13 +28,20 @@ movie_stars_ratings = JOIN full_roles BY movie, full_ratings BY movie;
 --   it has at least (>=) 10,001 votes (votes in raw_rating) 
 --   it has a score >= 7.8 (score in raw_rating)
 -- The best actors/actresses are those with the most good movies.
-best_movies = FILTER movie_stars_ratings BY votes >= 10001 AND score >= 7.8;
 
--- we get the count of good movies for each actor/actress
-actors_grouped = GROUP best_movies BY (star, gender);
-actors_good_movies_count = FOREACH actors_grouped GENERATE COUNT($1) AS count, group AS star;
+-- First, we split the data into two groups: good movies and bad movies
+SPLIT movie_stars_ratings INTO good_movies IF votes >= 10001 AND score >= 7.8, bad_movies IF votes < 10001 OR score < 7.8;
 
-STORE actors_good_movies_count INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-count2/';
+-- now we get the count of good movies and bad movies for each actor/actress
+-- we do this by counting the number of movies each actor/actress starred in
+good_movies_count = GROUP good_movies BY (star, gender);
+actors_good_movies_count = FOREACH good_movies_count GENERATE COUNT($1) AS count, group AS star;
+
+bad_movies_count = GROUP bad_movies BY (star, gender);
+actors_bad_movies_count = FOREACH bad_movies_count GENERATE 0 AS count, group AS star;
+
+STORE bad_movies INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-bad5/';
+STORE actors_bad_movies_count INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-bad6/';
 
 -- now we separate the dataset based on the actor/actress gender
 
