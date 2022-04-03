@@ -35,15 +35,20 @@ SPLIT movie_stars_ratings INTO good_movies IF votes >= 10001 AND score >= 7.8, b
 -- now we get the count of good movies and bad movies for each actor/actress
 -- we do this by counting the number of movies each actor/actress starred in
 good_movies_count = GROUP good_movies BY (star, gender);
-actors_good_movies_count = FOREACH good_movies_count GENERATE COUNT($1) AS count, group AS star;
+actors_good_movies_count = FOREACH good_movies_count GENERATE COUNT($1) AS count, FLATTEN(group) as (star, gender);
 
 bad_movies_count = GROUP bad_movies BY (star, gender);
-actors_bad_movies_count = FOREACH bad_movies_count GENERATE 0 AS count, group AS star;
+actors_bad_movies_count = FOREACH bad_movies_count GENERATE 0 AS count, FLATTEN(group) as (star, gender);
 
-STORE bad_movies INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-bad5/';
-STORE actors_bad_movies_count INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-bad6/';
+-- now we get the union of the actors counts, and the split them based on their genders
+all_actors_count_raw = UNION actors_good_movies_count, actors_bad_movies_count;
 
 -- now we separate the dataset based on the actor/actress gender
+SPLIT all_actors_count_raw INTO male_actors IF gender == 'MALE', female_actresses IF gender == 'FEMALE';
+
+STORE male_actors INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-male/';
+STORE female_actresses INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-female/';
+
 
 -- An actor/actress plays one role in each movie 
 --   (more accurately, the roles are concatenated on one line like "role A/role B")
