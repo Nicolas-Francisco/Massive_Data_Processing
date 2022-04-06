@@ -1,0 +1,28 @@
+TOP 10 ACTORS
+-	599	Shearer, Harry
+-	597	Azaria, Hank
+-	571	Castellaneta, Dan
+-	509	Bradly, Jhon (XXIV)
+-	498	Kenny, Tom I
+-	471	Baker, Dee Bradley
+-	452	Cropton, Ben I
+-	448	Portman, Daniel
+-	431	McElhinney, Ian
+-	427	Glover, Julian I
+____________________________________________________
+TOP 10 ACTRESSES
+-	701     MacNeille, Tress        FEMALE
+-	589     Emmanuel, Nathalie      FEMALE
+-	506     Christie, Gwendoline    FEMALE
+-	399     Murray, Hannah (I)      FEMALE
+-	368     Leslie, Rose    FEMALE
+-	339     Tena, Natalia   FEMALE
+-	338     Turner, Sophie (IV)     FEMALE
+-	336     Acharia, Amrita FEMALE
+-	321     Chaplin, Oona (II)      FEMALE
+-	320     Williams, Maisie        FEMALE
+____________________________________________________
+3 RANDOM ACTORS/ACTRESSES
+-	200     Rigg, Diana (I)
+-	364     O'Connor, Brenock 
+-	280     Bianco, Esmé 

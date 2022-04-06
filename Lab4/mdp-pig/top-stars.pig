@@ -1,10 +1,10 @@
 -- This script finds the actors/actresses with the highest number of good movies
 
-raw_roles = LOAD 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-stars-test-g8.tsv' USING PigStorage('\t') AS (star, title, year, num, type, episode, billing, char, gender);
+raw_roles = LOAD 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-stars.tsv' USING PigStorage('\t') AS (star, title, year, num, type, episode, billing, char, gender);
 -- Later you can change the above file to 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-stars.tsv' to see the full output
 
 
-raw_ratings = LOAD 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-ratings-test-g8.tsv' USING PigStorage('\t') AS (dist, votes, score, title, year, num, type, episode);
+raw_ratings = LOAD 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-ratings.tsv' USING PigStorage('\t') AS (dist, votes, score, title, year, num, type, episode);
 -- Later you can change the above file to 'hdfs://cm:9000/uhadoop/shared/imdb/imdb-ratings.tsv' to see the full output
 
 --------------------------------------------------------------------------------------
@@ -43,11 +43,14 @@ actors_bad_movies_count = FOREACH bad_movies_count GENERATE 0 AS count, FLATTEN(
 -- now we get the union of the actors counts, and the split them based on their genders
 all_actors_count_raw = UNION actors_good_movies_count, actors_bad_movies_count;
 
--- now we separate the dataset based on the actor/actress gender
-SPLIT all_actors_count_raw INTO male_actors IF gender == 'MALE', female_actresses IF gender == 'FEMALE';
+-- we sort in descending order the all actors count
+all_acotrs_count_raw_sorted = ORDER all_actors_count_raw BY count DESC;
 
-STORE male_actors INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-male/';
-STORE female_actresses INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-female/';
+-- now we separate the dataset based on the actor/actress gender
+SPLIT all_acotrs_count_raw_sorted INTO male_actors IF gender == 'MALE', female_actresses IF gender == 'FEMALE';
+
+STORE male_actors INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-male/';
+STORE female_actresses INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-female/';
 
 
 -- An actor/actress plays one role in each movie 
@@ -57,9 +60,6 @@ STORE female_actresses INTO 'hdfs://cm:9000/uhadoop2022/blackfire/lab4-test-fema
 --  a count of zero should be returned (i.e., the actor/actress
 --   should still appear in the output),
 -- The results should be sorted descending by count.
-
--- Test on smaller file first (as given above),
---  then test on larger file to get the results.
 
 --------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------
