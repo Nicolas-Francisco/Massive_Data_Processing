@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbbcdb7a-ca98-4847-a872-7aefa7033c70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRating.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRating.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/AverageSeriesRatingJ7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTaskJ7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTaskJ7$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTaskJ7$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/WordCountTaskJ7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/InfoSeriesRating.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/InfoSeriesRating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mdp-spark.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mdp/spark/cli/InfoSeriesRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mdp/spark/cli/InfoSeriesRating.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lab6/mdp-kafka" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,10 +43,24 @@
       <workItem from="1649691044788" duration="96000" />
       <workItem from="1649691201896" duration="1516000" />
       <workItem from="1649772457637" duration="1224000" />
+      <workItem from="1649863693006" duration="2844000" />
+      <workItem from="1649875067858" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
