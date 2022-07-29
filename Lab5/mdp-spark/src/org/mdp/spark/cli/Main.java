@@ -9,7 +9,6 @@ import java.lang.reflect.Method;
  * @author Aidan Hogan
  */
 public class Main {
-	
 	private static final String PREFIX = "org.mdp.spark.cli.";
 	private static final String USAGE = "usage: "+Main.class.getName();
 
@@ -22,8 +21,7 @@ public class Main {
 			if (args.length < 1) {
 				StringBuffer sb = new StringBuffer();
 				sb.append("missing <utility> arg where <utility> one of");
-				sb.append("\n\t"+AverageSeriesRating.class.getSimpleName()+": Get average ratings of series (Java7)");
-				
+				sb.append("\n\t"+AccidentsByWeekdayRating.class.getSimpleName()+": Get count of accidents by weekdays (Java7)");
 				usage(sb.toString());
 			}
 

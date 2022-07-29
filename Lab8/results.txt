@@ -1,0 +1,162 @@
+---------- TOP 10 RANKING
+
+http://es.wikipedia.org/wiki/Estados_Unidos     0.004197702458698531
+http://es.wikipedia.org/wiki/España     0.003234894936221456
+http://es.wikipedia.org/wiki/Francia    0.0021516924809731877
+http://es.wikipedia.org/wiki/Animalia   0.0016298798762072436
+http://es.wikipedia.org/wiki/2008       0.0015809003348162755
+http://es.wikipedia.org/wiki/Raza_(censo_de_los_Estados_Unidos) 0.00154212249621
+07274
+http://es.wikipedia.org/wiki/Argentina  0.0014587384921396379
+http://es.wikipedia.org/wiki/Kilómetro_cuadrado 0.0014471436887035212
+http://es.wikipedia.org/wiki/México     0.0014356954181705245
+http://es.wikipedia.org/wiki/Alemania   0.0014204080907101512
+http://es.wikipedia.org/wiki/Idioma_inglés      0.0014189555359049666
+
+______________________________________________________________
+> obama
+
+------------------- WITHOUT PAGE RANK
+Barack Obama
+http://es.wikipedia.org/wiki/Barack_Obama
+(MUCHO TEXTO ...)
+
+Obama (Fukui)
+http://es.wikipedia.org/wiki/Obama_(Fukui)
+Obama es una ciudad japonesa de la prefectura de Fukui. (...)
+
+Michelle Obama
+http://es.wikipedia.org/wiki/Michelle_Obama
+(...)
+
+
+------------------- WITH PAGE RANK
+http://es.wikipedia.org/wiki/Barack_Obama       
+Barack Obama    
+(de nuevo mucho texto...)
+
+http://es.wikipedia.org/wiki/Michelle_Obama     
+Michelle Obama  
+Michelle LaVaughn Robinson Obama es una abogada estadounidense, esposa del cuadragésimo cuarto y actual Presidente de Estados Unidos, Barack Obama
+(...)
+
+http://es.wikipedia.org/wiki/Obama_(Fukui)      
+Obama (Fukui)   
+Obama es una ciudad japonesa de la prefectura de Fukui (...)
+
+__________________________________________
+> putin
+
+------------------- WITHOUT PAGE RANK
+Putin. Corrupción
+http://es.wikipedia.org/wiki/Putin._Corrupción
+Putin. Corrupción es un informe independiente sobre (...)
+
+Vladímir Putin
+http://es.wikipedia.org/wiki/Vladímir_Putin
+Vladímir Putin es un abogado y político que actualmente ocupa la presidencia de Rusia
+... (more)
+
+------------------- WITH PAGE RANK
+http://es.wikipedia.org/wiki/Vladímir_Putin     
+Vladímir Putin 
+Vladímir Putin es un abogado y político que actualmente ocupa la presidencia 
+(...)
+
+http://es.wikipedia.org/wiki/Putin._Corrupción  
+Putin. Corrupción       
+Putin. Corrupción es un informe independiente sobre la corrupción en el 
+(...)
+
+
+http://es.wikipedia.org/wiki/Vladímir_Putin_en_los_sellos_postales      
+Vladímir Putin en los sellos postales   
+Vladímir Putin en los sellos postales cubre la temática filatélica 
+(...)
+______________________________________________________________
+> washington
+
+------------------- WITHOUT PAGE RANK
+Mashona Washington
+http://es.wikipedia.org/wiki/Mashona_Washington
+Mashona Washington es una jugadora profesional de tenis. Como jugadora junior, Washington ganó el Torneo Nacional de Tenis Estados Unidos celebrado en 1992 y fue finalista en el US National Hardcourt 16s y del US Indoor National 16s de 1991. Ingresó al profesionalismo en 1995. Luego de un lento inicio en su carrera profesional, Washington creció de gran manera en el 2004, cuando ingresó al grupo de las 100 mejores del ranking mundial por primera vez, finalizando el año entre las mejores 50. Obtuvo su primer triunfo contra una top ten cuando venció a María Sharápova en New Haven, y logró su primera final de un torneo de primer nivel en Tokio, donde coincidentemente cayó ante Sharapova. Es hermana del también tenista MaliVai Washington, quien llegó a la final de Wimbledon en 1996.
+(...)
+
+Washington Capitols
+http://es.wikipedia.org/wiki/Washington_Capitols
+Washington Capitols fue un antiguo equipo de la Basketball Association of America (lo que sería más adelante la NBA) 
+(...)
+
+
+------------------- WITH PAGE RANK
+http://es.wikipedia.org/wiki/Washington_D._C.   
+Washington D. C.
+Washington D. C. , oficialmente denominado Distrito de Columbia 
+(...)
+
+http://es.wikipedia.org/wiki/Washington_(estado)        
+Washington (estado)     
+Washington es uno de los 50 estados de Estados Unidos de América, 
+(...)
+______________________________________________________________
+> coronavirus
+
+------------------- WITHOUT PAGE RANK
+Coronavirus
+http://es.wikipedia.org/wiki/Coronavirus
+Los Coronavirus son un género de virus ARN de vertebrados de la familia Coronaviridae. 
+(...)
+
+Coronavirus Canino
+http://es.wikipedia.org/wiki/Coronavirus_Canino
+El Coronavirus Canino es una enfermedad infecciosa viral contagiosa de...
+... (more)
+
+
+------------------- WITH PAGE RANK
+http://es.wikipedia.org/wiki/Coronavirus        
+Coronavirus    
+Los Coronavirus son un género de virus ARN de vertebrados de la familia Coronaviridae. 
+(...)
+
+http://es.wikipedia.org/wiki/Coronavirus_felino 
+Coronavirus felino      
+Coronavirus felino FCoV, es un virus ARN que afecta a los gatos. 
+(...)
+
+http://es.wikipedia.org/wiki/Coronavirus_Canino 
+Coronavirus Canino      
+El Coronavirus Canino es una enfermedad infecciosa viral contagiosa de ...
+(...)
+
+______________________________________________________________
+> gojira
+
+------------------- WITHOUT PAGE RANK
+Gojira (banda)
+http://es.wikipedia.org/wiki/Gojira_(banda)
+Gojira es un grupo de death metal progresivo formado en 1996 en Bayona, Francia. La banda ...
+(...)
+
+Roca Gojira
+http://es.wikipedia.org/wiki/Roca_Gojira
+La Roca Gojira o Roca Godzilla es una roca situada en las costas de la...
+... (more)
+
+
+------------------- WITH PAGE RANK
+
+http://es.wikipedia.org/wiki/Gojira_(banda)     
+Gojira (banda) 
+Gojira es un grupo de death metal progresivo formado en 1996 en Bayona, Francia. 
+(...)
+
+http://es.wikipedia.org/wiki/Roca_Gojira        
+Roca Gojira    
+La Roca Gojira o Roca Godzilla es una roca situada en las costas de la ...
+(...)
+
+http://es.wikipedia.org/wiki/Gojira_(película_de_1954)  
+Gojira (película de 1954)       
+Godzilla (ゴジラ, "Gojira") es una película japonesa de ciencia ficción de 1954, 
+(...)

@@ -103,14 +103,14 @@ public class PageRank extends BasicComputation<Text, DoubleWritable, NullWritabl
 				if(edges > 0) {
 					// TODO: replace 0 value for DoubleWritable
 					// in order to split D ratio of rank evenly with neighbours
-					sendMessageToAllEdges(vertex, new DoubleWritable(0));
+					sendMessageToAllEdges(vertex, new DoubleWritable(D*(currentRank/edges)) );
 					// TODO: replace 0 value for DoubleWritable
 					// in order to add 1-D ratio of rank to random jump probability
-					aggregate(RJ_AGG_NAME, new DoubleWritable(0));
+					aggregate(RJ_AGG_NAME, new DoubleWritable(currentRank*(1-D)));
 				} else {
 					// TODO: replace 0 value for DoubleWritable
 					// in order to add complete rank to random jump probability
-					aggregate(RJ_AGG_NAME, new DoubleWritable(0));
+					aggregate(RJ_AGG_NAME, new DoubleWritable(currentRank));
 				}
 
 			}

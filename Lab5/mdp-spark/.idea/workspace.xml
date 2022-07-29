@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bbbcdb7a-ca98-4847-a872-7aefa7033c70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/InfoSeriesRating.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/InfoSeriesRating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/InfoSeriesRating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/mdp/spark/cli/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/mdp-spark.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mdp/spark/cli/InfoSeriesRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mdp/spark/cli/InfoSeriesRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mdp/spark/cli/InfoSeriesRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mdp/spark/cli/AccidentsByWeekdayRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mdp/spark/cli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mdp/spark/cli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/mdp-giraph/src/org/mdp/hadoop/cli/PageRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab8/mdp-giraph/src/org/mdp/hadoop/cli/PageRank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,12 @@
       <workItem from="1649772457637" duration="1224000" />
       <workItem from="1649863693006" duration="2844000" />
       <workItem from="1649875067858" duration="115000" />
+      <workItem from="1655245733281" duration="591000" />
+      <workItem from="1655246356076" duration="4071000" />
+      <workItem from="1655342664667" duration="5569000" />
+      <workItem from="1655695035406" duration="407000" />
+      <workItem from="1655845403321" duration="10000" />
+      <workItem from="1655854514512" duration="7108000" />
     </task>
     <servers />
   </component>
